@@ -1,0 +1,13 @@
+ GET http://localhost:9091/process HTTP/1.1
+
+###POST Test
+POST http://localhost:9091/post HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"sample",
+    "Time":"2023"
+}
+
+### Query Test
+ GET http://localhost:9091/home?id=12345&name=xuliang&id=678&name=xxxx HTTP/1.1

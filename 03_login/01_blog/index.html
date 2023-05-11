@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login/Register Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+			<div class="form-btn-group">
+				<button id="login-btn" class="active">Login</button>
+				<button id="register-btn">Register</button>
+			</div>
+			<form id="login-form" class="form">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password">
+				<button type="submit">Login</button>
+			</form>
+			<form id="register-form" class="form">
+				<label for="new-username">New Username:</label>
+				<input type="text" id="new-username" name="new-username">
+				<label for="new-password">New Password:</label>
+				<input type="password" id="new-password" name="new-password">
+				<label for="confirm-password">Confirm Password:</label>
+				<input type="password" id="confirm-password" name="confirm-password">
+				<button type="submit">Register</button>
+			</form>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

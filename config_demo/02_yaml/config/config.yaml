@@ -1,0 +1,45 @@
+env: dev
+log_level: trace
+srv:
+  network: tcp
+  listen_address: :5041
+  with_proxy: true
+  with_reflection: true
+rpc_client:
+  dial_port: 5010
+  dial_ports:
+    device: 5023
+    account: 5013
+    pusher: 5016
+db:
+  driver: mysql
+  database: test
+  username: root
+  password: "123456"
+  host: mysql
+  port: 3306
+  max_idle_conns: 5
+  max_open_conns: 10
+  conn_max_lifetime: 3600
+redis:
+  address: redis:6379
+  password: 123456
+  timeout: 0
+  max_idle: 0
+  idle_timeout: 0
+  retry_times: 0
+memcache:
+  address: memcached-cs:11211
+  max_idle: 4
+  timeout: 120
+warning_push:
+  expiration: 300
+  max_notify_count: 3
+  interval: 300
+mq:
+  uri:
+    scheme: amqp
+    host: rabbitmq
+    port: 5672
+    username: unipal
+    password: "123456"

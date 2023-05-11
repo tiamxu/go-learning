@@ -1,0 +1,12 @@
+[2022-02-09 21:51:18] [DEBUG] [main.go:main:10] 这是一个debug日志, err:test
+[2022-02-09 21:51:18] [TRACE] [main.go:main:11] 这是一个trace日志
+[2022-02-09 21:51:18] [INFO] [main.go:main:12] 这是一个info日志
+[2022-02-09 21:51:18] [WARNING] [main.go:main:13] 这是一个warning日志
+[2022-02-09 21:51:18] [ERROR] [main.go:main:14] 这是一个error日志
+[2022-02-09 21:51:18] [FATAL] [main.go:main:15] 这是一个fatal日志
+[2022-02-09 21:52:02] [DEBUG] [main.go:main:10] 这是一个debug日志, err:test
+[2022-02-09 21:52:02] [TRACE] [main.go:main:11] 这是一个trace日志
+[2022-02-09 21:52:02] [INFO] [main.go:main:12] 这是一个info日志
+[2022-02-09 21:52:02] [WARNING] [main.go:main:13] 这是一个warning日志
+[2022-02-09 21:52:02] [ERROR] [main.go:main:14] 这是一个error日志
+[2022-02-09 21:52:02] [FATAL] [main.go:main:15] 这是一个fatal日志

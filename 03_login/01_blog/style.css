@@ -1,0 +1,77 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+
+.form-container {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 40px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-btn-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.form-btn-group button {
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.form-btn-group button.active,
+.form-btn-group button:hover {
+	background-color: #333;
+}
+
+.form {
+	display: none;
+}
+
+.form label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #333;
+}
+
+.form input {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #333;
+}
+
+.form button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.form button[type="submit"]:hover {
+	background-color: #555;
+}
