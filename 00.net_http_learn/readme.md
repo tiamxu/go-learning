@@ -21,8 +21,8 @@ process 处理过程
   http.Server是一个struct
   server.ListenAndServer()
 Handler:
-  handler是一个接口interface
-  handler定义了一个方法ServeHTTP()
+  Handler是一个接口interface
+  Handler定义了一个方法ServeHTTP()
     HTTPResponseWriter
     指向Request结构体的指针
   DefaultServeMux 多路复用器
